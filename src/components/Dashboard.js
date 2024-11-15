@@ -9,7 +9,7 @@ const Dashboard = () => {
                 <img src="logo.png" alt="Logo" className="logo" />
                 <Link to="/Dashboard">Home</Link>
                 <Link to="/AddEmployee">Manage Employees</Link>
-                <Link to="/payroll"> ffProcess Payroll</Link>
+                <Link to="/payroll"> Process Payroll</Link>
                 <Link to="/reports">View Reports</Link>
                 <Link to="/" id="logout"><b>Logout</b></Link>
             </div>

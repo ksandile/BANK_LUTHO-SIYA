@@ -52,7 +52,8 @@ body {font-family: "Lato", sans-serif;}
 
 .main {
   margin-left: 160px; /* Same as the width of the sidenav */
-  padding: 0px 10px;
+  padding: 20px 10px;
+  
 }
 .wrapper-main{
     width: 1000px;
@@ -76,21 +77,37 @@ body {font-family: "Lato", sans-serif;}
     background-color: #e0a7af;
 
 }
-
+#payroll-form{
+  height: 400px;
+}
+.date{
+  width: 215px;
+  height: 40px;
+  border-radius: 5px;
+  border-color: grey;
+}
 .wrapper-main section {
     position: relative; /* Ensure sections are positioned relative to their parent */
     background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for readability */
     padding: 20px; 
-    border-radius: 10px;
+    border-radius: 0px;
+}
+
+.action-buttons {
+  display: flex; /* Makes items align in a row */
+  justify-content: space-between; /* Adds space between items */
+  gap: 1rem; /* Additional gap between items */
+  padding: 10px 100px 10px 10px ; /* Optional: Adds padding around the container */
 }
 
 button {
   background-color: #a42335;
   color: white;
-  padding: 20px;
+  padding: 50px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  padding-top: 200px;
 }
 
 /*'''''''''''''''''''''''''''''''''''''''''''''''''' new stle''''''''''''''''''''''''''''''''''''''''''' */

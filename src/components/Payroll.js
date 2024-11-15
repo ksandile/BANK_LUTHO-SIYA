@@ -14,8 +14,8 @@ const Payroll = () => {
   useEffect(() => {
     // Fetch employees or setup initial state
     setEmployees([
-      { id: 1, name: 'John Doe' },
-      { id: 2, name: 'Jane Smith' },
+      { id: 1, name: 'Aphiwe Mesilane' },
+      { id: 2, name: 'Yuri Nelson' },
     ]);
   }, []);
 
@@ -49,7 +49,7 @@ const Payroll = () => {
             <section id="payroll-section">
               <h2>Payroll Processing</h2>
               <form id="payroll-form" onSubmit={handleProcessPayroll}>
-                <input 
+                <input className='date'
                   type="date" 
                   value={payrollDate} 
                   onChange={(e) => setPayrollDate(e.target.value)} 

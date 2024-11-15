@@ -20,12 +20,12 @@ function Home() {
               <p>The Payroll Management System by ABSA is designed to help businesses manage employee payroll efficiently. With features such as employee management, payroll processing, and reporting, our system simplifies the administrative tasks associated with payroll.</p>
               <h2>Additional Key Features</h2>
               <ul>
-                <li>User authentication for secure access</li>
-                <li>Manage company profiles and employee records</li>
-                <li>Automated salary payment processing</li>
-                <li>Benefits and deductions management</li>
-                <li>Tax calculation and compliance tracking</li>
-                <li>Comprehensive reporting and analytics tools</li>
+                <p>User authentication for secure access</p>
+                <p>Manage company profiles and employee records</p>
+                <p>Automated salary payment processing</p>
+                <p>Benefits and deductions management</p>
+                <p>Tax calculation and compliance tracking</p>
+                <p>Comprehensive reporting and analytics tools</p>
               </ul>
             </section>
           </div>
